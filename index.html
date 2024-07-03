@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ProvaGlobal</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="alert hide">Digite somente números</div>
+  <div class="container">
+    <h3>Cálculo de IMC</h3>
+    <p>Peso (kg)</p>
+    <input type="text" class="peso"></input>
+    <p>Altura (m)</p>
+    <input type="text" class="altura"></input>
+    <button class="IMCcalcular">Calcular IMC ⟶</button>
+  </div>
+  <div class="shadow hide"></div>
+  <div class="imc hide">
+    <div class="close">
+      <button class="p2close">╳</button>
+    </div>
+    <div class="text-result">
+      <h3 class="text-p">Seu IMC é de 28</h3>
+    </div>
+  </div>
+</body>
+
+</html>
